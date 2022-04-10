@@ -1,0 +1,14 @@
+.appContainer {
+  max-width: 1000px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: center;
+  min-height: 100vh;
+  padding: 4rem;
+}
+
+@media (max-width: 500px) {
+  .appContainer {
+    padding: 0;
+  }
+}

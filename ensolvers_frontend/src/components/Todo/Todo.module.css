@@ -1,0 +1,55 @@
+.todoContainer {
+  display: flex;
+  justify-content: space-between;
+}
+
+.todoTitleContainer {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  margin-block: .2rem;
+}
+.isLinedThrough {
+  text-decoration: line-through;
+}
+
+
+.todoTitleContainer label {
+  width: 100%;
+  font-size: 1.2rem;
+}
+
+.todoActionsContainer {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  color: #1D9BF0;
+}
+
+.todoActionsContainer h3:hover {
+  text-decoration: underline;
+  cursor: pointer;
+}
+
+
+/* DIALOG */
+.todoListTitle {
+  font-size: 1.5rem;
+  font-weight: 600;
+  margin-bottom: 2rem;
+}
+
+.addTodoInput {
+  width: 100%;
+  padding: 0.5rem;
+}
+
+.addTodoBtn {
+  padding: 0.5rem 1rem;
+}
+
+.dialogActions {
+  display: flex;
+  gap: 0.5rem;
+  margin-block: 1rem;
+}
